@@ -10,7 +10,11 @@ namespace VerzioKezelesHF
     {
         static void Main(string[] args)
         {
-            int[] szamok = new int[10];
+            int db = 0;
+            Console.WriteLine("Mekkora legyen a tömb hossza?");
+            db = Convert.ToInt32(Console.ReadLine());
+
+            int[] szamok = new int[db];
           
             for (int i = 0; i < szamok.Length; i++)
             {
